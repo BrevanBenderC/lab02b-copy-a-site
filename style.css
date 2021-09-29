@@ -1,1 +1,28 @@
+#body {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 12% 22% 22% 22% 22%;
+    grid-template-rows: 10% 30% 30% 30%;
+}
 
+#boldme {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+#sidetoolbar {
+    line-height: 35px;
+    font-size: 1.2rem;
+}
+
+#threebarsandlogo {
+    width: 40; 
+    height: 10;
+}
+#searchbar {
+    text-align: left;
+    margin-left: 40rem;
+    border-color: black;
+    border-style: solid;
+    margin-right: 40rem;
+    border-width: .01rem;
+}
